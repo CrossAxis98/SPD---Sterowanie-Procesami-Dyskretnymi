@@ -33,7 +33,7 @@ else
 }
 
 int licznik{0};
- for(auto& x: dane)
+ for(const auto& x: dane)
  {
    int noweC;
    noweC=max(cpi[licznik], x.first) + x.second;
