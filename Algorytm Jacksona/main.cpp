@@ -42,6 +42,8 @@ int licznik{0};
  }
 
  cout<<cpi[n];
+ 
+ plik.close();
 
  return 0;
 }
